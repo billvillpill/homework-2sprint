@@ -1,13 +1,63 @@
 .sendForm {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 44px;
 }
 
 .textarea {
+    display: block;
+    width: 70vw;
+    margin: 0 0 32px 70px;
+    padding: 4px 8px 4px 8px;
+    min-height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 20px;
+    background: #F5F7FB;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.10), 0 5px 20px 0 rgba(29, 33, 38, 0.03);
+    resize: none;
 
 }
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    transform: translateY(10px);
+    opacity: 0.9;
+}
+/*:-moz-placeholder {*/
+/*    !* Firefox 18- *!*/
+/*    color: red;*/
+/*    text-align: center;*/
+/*}*/
+/*::-moz-placeholder {*/
+/*    !* Firefox 19+ *!*/
+/*    color: red;*/
+/*    text-align: center;*/
+/*}*/
+/*:-ms-input-placeholder {*/
+/*    color: red;*/
+/*    text-align: center;*/
+/*}*/
 
 .button {
-
+    margin: 0 0 32px 70px;
+    padding: 10px 38px 10px 38px;
+    width: 8vw;
+    min-height: 40px;
+    border-radius: 20px;
+    background-color: #06C;
+    color: #FFF;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
 }
 
 .button:hover {

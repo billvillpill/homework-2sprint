@@ -4,23 +4,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #000;
 }
 .conteiner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    padding: 131px 0px 216px 0px;
-    /*background-color: #ffe9a7;*/
+    padding: 131px 0 216px 0;
 }
 
 .hw {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-bottom: 1px solid #D9D9D9;
     border-top: 1px solid #D9D9D9;
+
 }
 
 .hwTitle {
