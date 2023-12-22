@@ -3,7 +3,7 @@ import Message from './message/Message'
 import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
-import avatar from './avatar.png'
+
 
 /*
 * 1 - описать тип MessageType
@@ -17,7 +17,7 @@ import avatar from './avatar.png'
 export type MessageType = {
     id: number
     user: {
-        avatar: string // будет ava
+        avatar: string // будет ava тут возможно должна быть ссылка или что-то еще
         name: string
     }
     message: {
@@ -52,11 +52,11 @@ export const friendMessage0: MessageType = {
 
 const HW1 = () => {
     return (
-        <div id={'hw1'}>
+        <div id={'hw1'} className={s2.conteiner}>
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
-                <div>
+                <div className={s2.message}>
                     <Message message={message0} />
                     <FriendMessage message={friendMessage0} />
                 </div>

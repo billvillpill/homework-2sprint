@@ -2,6 +2,7 @@ import React from 'react'
 import s from './Message.module.css'
 import {MessageType} from '../HW1';
 import avatar from '../avatar.png'
+import iconsSprite from './Rectangle3.svg'
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
@@ -19,6 +20,9 @@ const Message = (props: MessagePropsType) => {
                     alt={props.message.user.avatar}
 
                 />
+                <svg width="527" height="60" viewBox="19 16 527 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlinkHref={ `${iconsSprite}#${'message'}` } />
+                </svg>
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
                         {/*создаёт студент*/}
