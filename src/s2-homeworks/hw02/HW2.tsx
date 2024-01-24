@@ -23,6 +23,8 @@ export type AffairType = {
     name: string // need to fix any
     priority: AffairPriorityType
 }
+
+
 export type FilterType = 'all' | AffairPriorityType
 
 // constants
