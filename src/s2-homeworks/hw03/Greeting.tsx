@@ -1,7 +1,6 @@
 import React, {ChangeEvent, KeyboardEvent} from 'react';
 import s from './Greeting.module.css'
-import {Simulate} from 'react-dom/test-utils';
-import input = Simulate.input;
+
 
 type GreetingPropsType = {
     name: string // need to fix any
