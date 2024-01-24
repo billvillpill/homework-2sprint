@@ -5,15 +5,18 @@
 }
 
 .error {
+    color: red;
 }
 
 .input {
+    border-color: #37ff00;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border-color: red;
 }
 
 .button {
