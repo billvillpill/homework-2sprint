@@ -1,18 +1,24 @@
 .stand {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 30px;
+
 }
 
 .inputs {
+    margin: 20px;
     display: flex;
     flex-direction: column;
     gap: 48px;
 }
 
 .buttons {
+    margin: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     gap: 24px;
 }
 
@@ -20,4 +26,15 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+    margin-bottom: 20px;
+}
+
+.inputText {
+    font-size: 22px;
+    font-family: SansSerif serif;
+}
+.spanError {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial serif;
 }
